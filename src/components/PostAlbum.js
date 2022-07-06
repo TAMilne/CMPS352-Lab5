@@ -44,13 +44,13 @@ class PostAlbum extends Component {
                         {album.id}
                     </td>
                     <td>
-                        {album.id}
+                        {album.title}
                     </td>
                     <td>
-                        {album.id}
+                        <img src={album.thumbnailUrl}></img>
                     </td>
                     <td>
-                        {album.id}
+                        <button>Delete</button>
                     </td>
                 </tr>)
             }
